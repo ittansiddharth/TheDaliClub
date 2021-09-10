@@ -1,0 +1,349 @@
+/*=============================================
+ Table Of Contents
+ 1.) Eric Meyer's Reset
+ 2.) Global Typography
+	 2.0.1) Font Face
+	 2.0.2) Global Headings
+	 2.0.3) General Text Formatting
+	 2.0.4) Global Link style
+	 2.0.5) Global Button Styles
+	 2.0.6) Global Sprite Icons and Clearfix style
+ 3.) Global Site Wide Content
+ 4.) Header Style
+ 5.) Footer Style
+ ===============================================*/
+/* 1.) Eric Meyer's Reset ---------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* 2.) Global Typography ---------------------------------------------*/
+*, :before, :after{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-size: 100%;
+}
+body {
+	font-size: 62.5%;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+}
+/* 2.0.1) Font Face ---------------------------------------------*/
+/* Put Your font face Styles here---------------------------------------------*/
+	
+
+/* 2.0.2) Global Headings ---------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 28px;
+}
+/* 2.0.3) General Text Formatting ---------------------------------------------*/
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+/* 2.0.4) Global Link style ---------------------------------------------*/
+a {
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	text-decoration: none;
+	outline: none;
+	font-weight: 700;
+}
+/* 2.0.5) Global Button Styles ---------------------------------------------*/
+
+
+/* Clear Floated Elements by use Clearfix class---------------------------------------------*/
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* 3.) Global Site Wide Content ---------------------------------------------*/
+.m-b-10 {
+	margin-bottom: 10px;
+}
+.m-b-20 {
+	margin-bottom: 20px;
+}
+.m-r-10 {
+	margin-right: 10px;
+}
+.m-l-10 {
+	margin-left: 10px;
+}
+.m-t-10 {
+	margin-top: 10px;
+}
+.m-t-108{
+	margin-top: 108px;
+}
+.w-50 {
+	width: 50%;
+}
+.w-85 {
+	width: 85%;
+}
+.btn-primary, .btn-secondary {
+    color: #fff;
+    background-color: #1190c3;
+    width: 80px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+.btn-secondary {
+	background-color: #115ec3;
+	margin-top: 25px;
+}
+#wrapper {
+	color:#f5f5f5;
+	background-color: #000;
+	padding-bottom: 40px;
+	width: 100%;
+}
+.d-flex {
+	display: flex;
+}
+.start-center {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+  }
+  .space_between-center {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  .center-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .end-center {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+  }
+  .start-stretch {
+	place-content: stretch flex-start;
+	align-items: stretch;
+	flex-direction: row;
+	box-sizing: border-box;
+	display: flex;
+	max-height: 100%;
+  }
+  .spacer {
+	flex: 1 1 auto;
+  }
+  .flex-column {
+	flex-direction: column;
+  }
+  .align-center {
+	align-items: center;
+  }
+  .align-start {
+	align-items: start;
+  }
+  .justify-center {
+	justify-content: center;
+  }
+  .flex-1 {
+	flex: 1;
+  }
+  .flex-2 {
+	flex: 2;
+  }
+.text-center {
+	text-align: center;
+	}
+	
+/* ------------------  Code for UI Tools Removed this section from your project --------------------------- */
+.container
+{
+	max-width:1170px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+/* 4.) Header Styles ---------------------------------------------*/
+
+header {
+	padding: 20px 0;
+	margin-bottom: 60px;
+}
+
+.first-section {
+	max-width: 60%;
+	justify-content: center;
+    align-items: start;
+	margin-bottom: 100px;
+}
+.about-prj p {
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	line-height: 20px;
+	margin-right: 20px;
+}
+.grident-bx {
+	background: linear-gradient(49deg,#4aeadc 0%,#2acf8a 29%,#ee2c82 60%,#fb6962 80%,#fef84c 100%);
+	margin-bottom: 40px;
+}
+.air-drop-content {
+	padding: 40px 0;
+}
+.charity-content {
+	margin-right: 10px;
+	width: 33%;
+}
+.charity-content:last-child {
+	margin-right: 0px;
+}
+.charity-content figure {
+	margin-bottom: 20px;
+}
+.charity-content h4 {
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+.charity-content p {
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	min-height: 90px;
+	}
+
+.our-team {
+	padding: 28px 0;
+	margin-bottom: 100px;
+}
+.our-team h3 {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.our-team img {
+	margin-right: 20px;
+}
+.our-team li{
+	width: 100%;
+	font-size: 18px;
+}
+.i-roadmap{
+	width: 45%;
+	height: 250px;
+	margin-top: 40px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+}
+.i-roadmap h3{
+	font-size: 35px;
+}
+.i-roadmap p{
+	padding: 20px;
+	font-size: 17px;
+}
+.arrow{
+	width:33px;
+	height: 67px;
+	border-right: solid yellow;
+	margin-top: 38px;
+}
+
+/* 5.) Media Query Styles ---------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+	.header {
+		margin-bottom: 30px;
+	}
+	.first-section {
+		max-width: 80%;
+		flex-direction: column;
+		margin-bottom: 24px;
+	}
+	.w-50 {
+		width: 100%;
+	}
+	.about-prj h2 {
+		font-size: 22px;
+	}
+	.air-drop-content { 
+		flex-direction: column;
+	}
+	.charity-content {
+		width: 80%;
+	}
+	.team-img-wrap {
+		flex-direction: column;
+	}
+	.team-img-wrap figure {
+		margin-bottom: 20px;
+	 }
+	.our-team {
+		margin-bottom: 20px;
+	}
+	.roadmap-wrap h3 {
+		font-size: 18px;
+	}
+	.i-roadmap {
+		width: 80%;
+	}
+
+	.btn-wrap {
+		margin-bottom: 20px;
+	}
+  }
