@@ -1,4 +1,4 @@
-# Welcome to The Dali Club!!
+# Welcome to [The Dali Club](https://moneyheistmaskcom.netlify.app/mini-project/)!!
 
 
 What does it mean to own a piece of the internet? Can you sell a meme to the highest bidder? Is the metaverse finally happening? Let's find out together!
